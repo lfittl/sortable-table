@@ -1,0 +1,24 @@
+50 lines of Javascript code to help you sort tables (requires Prototype library)
+
+Example table:
+
+<table>
+  <tr>
+    <th></th>
+    <th class="sortable"></th>
+	</tr>
+	<tr>
+		<td>Entry ABC</td>
+		<td>3 comments</td>
+	</tr>
+	...
+</table>
+
+The first click will sort ascending.
+The second click will sort descending.
+The third click will return to the initial order on page load.
+
+For Rails apps:
+- Copy sortable_table.js into public/javascripts and include it
+- Copy sortable_table.css into public/stylesheets and include it
+- Copy arrow_down.gif and arrow_up.gif into public/images

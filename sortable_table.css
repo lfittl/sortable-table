@@ -1,0 +1,13 @@
+table th.sortable {
+  padding-right: 12px;
+  background-position: right 4px;
+  background-repeat: no-repeat;
+  text-align: right !important;
+  cursor: pointer;
+}
+table th.sortable.sort-ascending {
+  background-image: url('/images/arrow-up.gif');
+}
+table th.sortable.sort-descending {
+  background-image: url('/images/arrow-down.gif');
+}
