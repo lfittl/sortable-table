@@ -6,12 +6,12 @@ Example table:
   <tr>
     <th></th>
     <th class="sortable"></th>
-	</tr>
-	<tr>
-		<td>Entry ABC</td>
-		<td>3 comments</td>
-	</tr>
-	...
+  </tr>
+  <tr>
+    <td>Entry ABC</td>
+    <td>3 comments</td>
+  </tr>
+  ...
 </table>
 
 The first click will sort ascending.
